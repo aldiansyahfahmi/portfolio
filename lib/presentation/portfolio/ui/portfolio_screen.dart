@@ -63,6 +63,15 @@ List<Map<String, dynamic>> projects = [
     'image': Assets.images.projects.wallpaperApp.image(),
     'link': 'https://github.com/aldiansyahfahmi/wallpaper-app',
   },
+  {
+    'name': 'E-Logbook PPDS THT',
+    'description': '''
+Aplikasi e-logbook PPDS THT-BKL Fakultas Kedokteran Universitas Hasanuddin adalah platform digital yang dirancang untuk memfasilitasi pencatatan, pemantauan, dan evaluasi aktivitas pendidikan dokter spesialis THT-BKL. Aplikasi ini memungkinkan para peserta PPDS (Program Pendidikan Dokter Spesialis) untuk merekam kegiatan klinis, prosedur medis, seminar, serta kegiatan akademik lainnya dengan mudah dan terstruktur.
+
+Dengan antarmuka yang ramah pengguna, aplikasi ini mendukung pelacakan perkembangan kompetensi peserta secara real-time, sehingga memudahkan supervisor dan pembimbing dalam memberikan umpan balik yang konstruktif. Selain itu, sistem ini dilengkapi dengan fitur laporan otomatis yang membantu dalam persiapan dan penilaian berkala, serta mendukung transparansi dan akurasi dalam proses pendidikan.''',
+    'image': Assets.images.projects.eLogbookPPDSTHT.image(),
+    'link': 'https://github.com/aldiansyahfahmi/wallpaper-app',
+  },
 ];
 
 class PortfolioScreen extends StatelessWidget {

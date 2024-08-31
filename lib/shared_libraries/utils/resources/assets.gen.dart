@@ -74,6 +74,10 @@ class $AssetsImagesProjectsGen {
   AssetGenImage get eBookAnatomyLearning =>
       const AssetGenImage('assets/images/projects/E-Book Anatomy Learning.png');
 
+  /// File path: assets/images/projects/E-Logbook PPDS-THT.png
+  AssetGenImage get eLogbookPPDSTHT =>
+      const AssetGenImage('assets/images/projects/E-Logbook PPDS-THT.png');
+
   /// File path: assets/images/projects/E-Logbook Prodi S1 FKUH.png
   AssetGenImage get eLogbookProdiS1FKUH =>
       const AssetGenImage('assets/images/projects/E-Logbook Prodi S1 FKUH.png');
@@ -101,6 +105,7 @@ class $AssetsImagesProjectsGen {
   /// List of all assets
   List<AssetGenImage> get values => [
         eBookAnatomyLearning,
+        eLogbookPPDSTHT,
         eLogbookProdiS1FKUH,
         eLogbookProfesiFKUH,
         eLogbookProfesiUNIPA,
