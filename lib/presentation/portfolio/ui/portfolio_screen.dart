@@ -70,7 +70,8 @@ Aplikasi e-logbook PPDS THT-BKL Fakultas Kedokteran Universitas Hasanuddin adala
 
 Dengan antarmuka yang ramah pengguna, aplikasi ini mendukung pelacakan perkembangan kompetensi peserta secara real-time, sehingga memudahkan supervisor dan pembimbing dalam memberikan umpan balik yang konstruktif. Selain itu, sistem ini dilengkapi dengan fitur laporan otomatis yang membantu dalam persiapan dan penilaian berkala, serta mendukung transparansi dan akurasi dalam proses pendidikan.''',
     'image': Assets.images.projects.eLogbookPPDSTHT.image(),
-    'link': 'https://github.com/aldiansyahfahmi/wallpaper-app',
+    'link':
+        'https://play.google.com/store/apps/details?id=com.smartinovasi.e_logbook_ppds_tht&hl=id',
   },
 ];
 
