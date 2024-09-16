@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/responsive.dart';
+import 'package:portfolio/shared_libraries/utils/helpers/url_helper.dart';
 import 'package:portfolio/shared_libraries/utils/resources/assets.gen.dart';
 import 'package:portfolio/shared_libraries/utils/style/colors.dart';
 import 'package:portfolio/shared_libraries/utils/style/typography.dart';
@@ -51,6 +52,29 @@ class HomeScreen extends StatelessWidget {
           style: MyTypography.heading4.regular.copyWith(
             color: ColorName.white,
           ),
+        ),
+        const SizedBox(height: 50),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            InkWell(
+              onTap: () {
+                UrlHelper.openLinkInNewTab(
+                  'https://www.linkedin.com/in/aldiansyah99/',
+                );
+              },
+              child: Assets.images.icons.linkedin.svg(),
+            ),
+            const SizedBox(width: 16),
+            InkWell(
+              onTap: () {
+                UrlHelper.openLinkInNewTab(
+                  'https://www.instagram.com/aldiansyahf99/?hl=id',
+                );
+              },
+              child: Assets.images.icons.instagram.svg(),
+            ),
+          ],
         ),
       ],
     );

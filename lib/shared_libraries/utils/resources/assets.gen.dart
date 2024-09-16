@@ -47,9 +47,24 @@ class $AssetsImagesIconsGen {
   /// File path: assets/images/icons/github.svg
   SvgGenImage get github => const SvgGenImage('assets/images/icons/github.svg');
 
+  /// File path: assets/images/icons/instagram.svg
+  SvgGenImage get instagram =>
+      const SvgGenImage('assets/images/icons/instagram.svg');
+
+  /// File path: assets/images/icons/linkedin.svg
+  SvgGenImage get linkedin =>
+      const SvgGenImage('assets/images/icons/linkedin.svg');
+
   /// List of all assets
-  List<SvgGenImage> get values =>
-      [dartOriginal, figmaOriginal, flutterOriginal, gitOriginal, github];
+  List<SvgGenImage> get values => [
+        dartOriginal,
+        figmaOriginal,
+        flutterOriginal,
+        gitOriginal,
+        github,
+        instagram,
+        linkedin
+      ];
 }
 
 class $AssetsImagesPhotoGen {
