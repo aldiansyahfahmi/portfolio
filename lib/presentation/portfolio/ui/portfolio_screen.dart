@@ -73,6 +73,14 @@ Dengan antarmuka yang ramah pengguna, aplikasi ini mendukung pelacakan perkemban
     'link':
         'https://play.google.com/store/apps/details?id=com.smartinovasi.e_logbook_ppds_tht&hl=id',
   },
+  {
+    'name': 'PAN Sales',
+    'description':
+        '''Aplikasi ini dirancang untuk memudahkan proses manajemen penjualan lapangan bagi para sales dalam menjalankan tugas harian mereka. Dengan fitur-fitur yang komprehensif, aplikasi ini membantu sales mengatur jadwal, melacak kunjungan ke toko, dan memudahkan proses pembuatan data toko baru.
+''',
+    'image': Assets.images.projects.pANSales.image(),
+    'link': '',
+  },
 ];
 
 class PortfolioScreen extends StatelessWidget {
@@ -126,18 +134,19 @@ class PortfolioScreen extends StatelessWidget {
                               color: ColorName.white,
                             ),
                           ),
-                          IconButton(
-                            onPressed: () {
-                              UrlHelper.openLinkInNewTab(
-                                projects[index]['link'],
-                              );
-                            },
-                            icon: const Icon(
-                              Icons.link,
-                              color: ColorName.blue,
-                              size: 24,
+                          if (projects[index]['link'] != '')
+                            IconButton(
+                              onPressed: () {
+                                UrlHelper.openLinkInNewTab(
+                                  projects[index]['link'],
+                                );
+                              },
+                              icon: const Icon(
+                                Icons.link,
+                                color: ColorName.blue,
+                                size: 24,
+                              ),
                             ),
-                          ),
                         ],
                       ),
                       const SizedBox(height: 8),

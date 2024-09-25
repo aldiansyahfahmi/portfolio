@@ -109,6 +109,10 @@ class $AssetsImagesProjectsGen {
   AssetGenImage get medAnatomyLearningFKUH => const AssetGenImage(
       'assets/images/projects/Med Anatomy Learning FKUH.png');
 
+  /// File path: assets/images/projects/PAN Sales.png
+  AssetGenImage get pANSales =>
+      const AssetGenImage('assets/images/projects/PAN Sales.png');
+
   /// File path: assets/images/projects/Presensita.png
   AssetGenImage get presensita =>
       const AssetGenImage('assets/images/projects/Presensita.png');
@@ -125,6 +129,7 @@ class $AssetsImagesProjectsGen {
         eLogbookProfesiFKUH,
         eLogbookProfesiUNIPA,
         medAnatomyLearningFKUH,
+        pANSales,
         presensita,
         wallpaperApp
       ];
